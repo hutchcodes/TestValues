@@ -45,6 +45,7 @@ namespace TestValues
         private static string GetStandardString(string seed)
         {
             return $"Test_{seed}";
+            throw new Exception();
         }
 
         private static DateTime GetStandardDateTime(string seed)
